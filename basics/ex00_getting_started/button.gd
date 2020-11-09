@@ -17,7 +17,7 @@ func _ready():
 
 	var button = get_parent().get_node("on_off_btn")
 	button.connect("pressed", self, "doIt", [button])
-	#speed = int(button.pressed)
+	speed = int(button.pressed)
 	doIt(button)
 	pass
 
