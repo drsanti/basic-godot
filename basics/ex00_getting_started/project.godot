@@ -19,6 +19,10 @@ config/name="Godot Example"
 run/main_scene="res://MainScene.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+WebsocketsClient="*res://websockets_client.gd"
+
 [input]
 
 ui_left={
